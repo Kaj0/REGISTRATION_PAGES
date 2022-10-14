@@ -152,6 +152,7 @@ a:hover{
         width: 80%;
         display: flex;
         flex-direction: column;
+        padding: 20px 0;
     }
     .textbox{
         width: 60%;
