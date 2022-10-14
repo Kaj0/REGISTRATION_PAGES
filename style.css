@@ -1,0 +1,250 @@
+*{
+    margin: auto;
+    font-family: 'Dosis',sans-serif;
+    flex-wrap: wrap;
+}
+.container{
+    background-color: #202027;
+    width: 100%;
+    padding-bottom: 100px;
+}
+header{
+    background-color: black;
+    color:#1762a7;
+    width: 100%;
+    padding: 10px 0;
+}
+main{
+    padding-top: 40px;
+}
+h1{
+    font-weight: normal;
+}
+.completed, .welcome{
+    color: #bc3a80;
+    font-weight: 900;
+    font-size: 60px;
+}
+h1,p{
+    width: fit-content;
+    color: white;
+}
+p{
+    padding-top: 10px;
+}
+h1.statement{
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    font-size: 50px;
+}
+strong{
+    font-size: 70px;
+    color: #bc3a80;
+}
+.bigbox{
+    width: 80%;
+    background-color: #202027;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 100px 0 90px 0;
+}
+.bbox{
+    width: 70%;
+    background-color: #202027;
+    padding: 100px 0 90px 0;
+    border-radius: 10px;
+}
+.textbox{
+    width: 30%;
+
+}
+.box{
+    padding-top: 20px;
+    width: 40%;
+}
+.formbox{
+    background-color: black;
+    border-radius: 10px;
+    padding: 50px 35px 50px 15px;
+}
+
+form{
+    width: 80%;
+    color: white;
+}
+label{
+    font-size: 15px;
+}
+input, select{
+    width:100%;
+    padding: 10px;
+    background-color: black;
+    border-color: #1762a7;
+    border-width: 2px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 5px;
+    margin-bottom:40px;
+}
+input:focus{
+    padding: 12px;
+    background-color: #e5e5e5;
+    color: black;
+    border-color: #1762a7;
+    border-width: 2px;
+    outline: none;
+}
+footer{
+    padding-top: 10px;
+    width:fit-content;
+}
+button{
+    background-color: #1762a7;
+    color: white;
+    width: 108%;
+    padding:5px;
+    border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+    color: black;
+}
+a{
+    color: #1762a7;
+    text-decoration: none;
+}
+a:hover{
+    color:#bc3a80;
+    cursor: pointer;
+}
+@media screen and (max-width:1336px){
+    .bigbox{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 100px 0;
+    }
+    .textbox{
+        width: 30%;
+    }
+    h1.statement{
+        letter-spacing: 5px;
+        word-spacing: 10px;
+        font-size: 45px;
+    }
+    strong{
+        font-size: 60px;
+        color: #bc3a80;
+    }
+    .box{
+        width: 40%;
+    }
+    .formbox{
+        background-color: black;
+        border-radius: 10px;
+        padding: 50px 35px 50px 15px;
+    }
+}
+@media screen and (max-width:1300px){
+    .bigbox{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    .textbox{
+        width: 60%;
+    }
+    h1.statement{
+        letter-spacing: 4px;
+        word-spacing: 7.5px;
+        font-size: 35px;
+    }
+    strong{
+        font-size: 45px;
+        color: #bc3a80;
+    }
+    .box{
+        width: 60%;
+    }
+    .formbox{
+        background-color: black;
+        border-radius: 10px;
+        padding: 50px 35px 50px 15px;
+    }
+}
+@media screen and (max-width:1024px){
+    .bigbox{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    .textbox{
+        width: 60%;
+    }
+    h1{
+        font-weight: normal;
+        font-size: 24px;
+    }
+    h1.statement{
+        letter-spacing: 4px;
+        word-spacing: 7.5px;
+        font-size: 35px;
+    }
+    strong{
+        font-size: 45px;
+        color: #bc3a80;
+    }
+    .box{
+        width: 60%;
+    }
+    .formbox{
+        background-color: black;
+        border-radius: 10px;
+        padding: 50px 35px 50px 15px;
+    }
+    .completed, .welcome{
+        color: #bc3a80;
+        font-weight: 600;
+        font-size: 36px;
+    }
+}
+@media screen and (max-width:600px){
+    .bigbox{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .textbox{
+        width: 100%;
+    }
+    h1.statement{
+        letter-spacing: 4px;
+        word-spacing: 7.5px;
+        font-size: 35px;
+    }
+    strong{
+        font-size: 45px;
+        color: #bc3a80;
+    }
+    .box{
+        width: 100%;
+    }
+    .formbox{
+        background-color: black;
+        border-radius: 0px;
+        padding: 50px 35px 50px 15px;
+    }
+    .completed, .welcome{
+        color: #bc3a80;
+        font-weight: 500;
+        font-size: 24px;
+    }
+    .bbox{
+        width: 100%;
+        background-color: #202027;
+        padding: 100px 0 90px 0;
+        border-radius: 0px;
+    }
+}
